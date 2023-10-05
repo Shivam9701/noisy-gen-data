@@ -2,7 +2,8 @@ import pandas as pd
 import os
 
 #List of files to process
-files = ['equalization.csv', 'kalman_snr_values.csv', 'spectral_gating_snr_values.csv', 'wiener_snr_values.csv','wavelet_snr_values.csv']
+files = ['equalization.csv', 'kalman_snr_values.csv', 'spectral_gating_snr_values.csv', 'wiener_snr_values.csv','wavelet_snr_values.csv','butterworth_lowpass.csv']
+
 
 
 for file in files:
